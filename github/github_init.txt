@@ -1,0 +1,12 @@
+   65  echo "# env_conf" >> README.md
+   66  git init 
+   67  git add .
+   68  git commit -m "first commit"
+   69  git remote add origin https://github.com/laikacmkim/env_conf.git
+   70  git push -u origin master
+   71  ls
+   72  git config --help
+   73  git config --list
+   74  git config -l
+   75  git config remote.origin.url https://laikacmkim:laikama22@github.com/laikacmkim/env_conf.git
+   76  git push -u origin master
